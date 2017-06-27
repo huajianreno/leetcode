@@ -1,6 +1,6 @@
 /**
  * Created by huajian_messi on 2017/6/26.
- * 注意：要考虑到n位不同是n-1位不同乘上10减去n-1位
+ * 注意：要考虑到n位不同是n-1位不同乘上10减去n-1位，而且要考虑到n-1位不同是ok[n-1]-ok[n-2]
  */
 public class Solution_357 {
     public int countNumbersWithUniqueDigits(int n) {
